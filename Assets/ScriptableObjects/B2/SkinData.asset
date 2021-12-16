@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c565e54676444ada7fe52a99e20c61, type: 3}
+  m_Name: SkinData
+  m_EditorClassIdentifier: 
+  datas:
+  - id: 0
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 48af35bfce3274a3a9c85b440deb7f51, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 1
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 23e8f0f4cfd2b4252a55da87c50dbd23, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 2
+    name: 
+    description: 
+    amountAds: 3
+    spriteSkin: {fileID: 21300000, guid: 5aab9700f12d54dc2a4eddf91c58c399, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1500
+    getSpin: 1
+    getShop: 0
+  - id: 3
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: fae4e1f7f61ac442f85b700a72ae24c5, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 4
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 236292cca046e4e928e5cccfdcf9e354, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 5
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: ad27309a07f264f4b9ffb303caa4598a, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 6
+    name: 
+    description: 
+    amountAds: 0
+    spriteSkin: {fileID: 21300000, guid: ca19adfc01ea04bf48e3ed97a34e2f43, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 1
+  - id: 7
+    name: 
+    description: 
+    amountAds: 0
+    spriteSkin: {fileID: 21300000, guid: 63006dcaa892946208393eedf2d53dfa, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 8
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: ccec185c7a41e41d49f63fe2469066d4, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 9
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: d87bdf636e4514a9ebd7715c005d8340, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 10
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 3ab23abdb780e4de688c9435fadfa22f, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 11
+    name: 
+    description: 
+    amountAds: 0
+    spriteSkin: {fileID: 21300000, guid: 749471401a66540129ada472d8317f99, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 12
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: f500b65a2415549c8af0ab5f33390dc8, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 13
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: f1db99da9b4fa47d7b1c2cc58d23f36a, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 14
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 34dabe63576d04b5d9a5e3994c656d9c, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 15
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 8d68dc01314194d988daee7b0d06d6f3, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 0
+    getSpin: 0
+    getShop: 0
+  - id: 16
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: c6a0918307d5244ba9db18a44e2d46c8, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 17
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: cfec6bac1f8574213a6dbd0a647a86a8, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 18
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 6b593505b9ec940fa865150e34e8b53b, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 19
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 3819f8c51167e4b04a92ca6182601c75, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 20
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: f19d464ec467143dbaadc699bd3e793d, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 21
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 7bc6a07f9263343018d0f9d45f04c67c, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0
+  - id: 22
+    name: 
+    description: 
+    amountAds: 2
+    spriteSkin: {fileID: 21300000, guid: 5082149aa7bb84b5e8a15241e296cc01, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 1000
+    getSpin: 0
+    getShop: 0

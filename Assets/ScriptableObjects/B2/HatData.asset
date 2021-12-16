@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1969ac895f34498bb5bd91b7517d3d5, type: 3}
+  m_Name: HatData
+  m_EditorClassIdentifier: 
+  datas:
+  - id: 0
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 8a6307cc775f14b319fcb1f1290035d0, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 1
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 8a6307cc775f14b319fcb1f1290035d0, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 2
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: a51dfe1b739a94486bea42c9c3dadfbf, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 3
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: e677868d805b745d280e8f657293650f, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 4
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 309d05190aaf44740890dd35fae05fb9, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 1
+  - id: 5
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 36e79c11b62404bf9a161fb6bf652d78, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 6
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 1bfc6911336154f579fa38a13b8a1bfe, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 1
+    getShop: 0
+  - id: 7
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: da34678678b5c4ed382879ab0ee4c377, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 8
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: b376fe360af8541dbb7d89267ba68692, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 9
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 47cbfbfe34e6c466b9f427b0a7bd78c6, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 10
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: e3114ed9a46724e4b96794370adec9d0, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 11
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 91b821d921d9245cbbd8ba5f2733a23f, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 12
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: 3af27639ffd944642bae7b0ff094d6b4, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 13
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: e877957ba052f4281a77941e1553edba, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 14
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: c7cb7c459c7594fc5ade49f2b50cd6d9, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0
+  - id: 15
+    name: 
+    description: 
+    amountAds: 2
+    sprite: {fileID: 21300000, guid: d75703a7b8f45410cb086afd853ca588, type: 3}
+    prefabPlayer: {fileID: 0}
+    dame: 0
+    hp: 0
+    price: 500
+    getSpin: 0
+    getShop: 0

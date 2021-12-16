@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 938af7bea2854493d8355b0eb979ced3, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  characterParamArray:
+  - kindCharacter: 0
+    oriHP: 20
+    oriMaxHP: 20
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 3
+    oriAttackDistance: 2.4
+  - kindCharacter: 1
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 2
+    oriAttackDistance: 1.5
+  - kindCharacter: 2
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 2.3
+    oriAttackDistance: 2.3
+  - kindCharacter: 3
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 2.6
+    oriAttackDistance: 2.6
+  - kindCharacter: 4
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 3
+    oriAttackDistance: 2.9
+  - kindCharacter: 5
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 3.3
+    oriAttackDistance: 3.2
+  - kindCharacter: 6
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 3.6
+    oriAttackDistance: 3.5
+  - kindCharacter: 7
+    oriHP: 40
+    oriMaxHP: 40
+    oriDamage: 1000
+    oriAttackSpeed: 1
+    oriMoveSpeed: 3.8
+    oriAttackDistance: 3.8
+  victoryBonusExp: 25
+  defeatBonusExp: 3
+  defeatBonusGold: 15
+  watchVideoBonusGold: 300
+  timeRounds:
+  - 90
+  - 60
+  - 30

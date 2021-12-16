@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0bc4196adf736428ac7aaa1f5ac24a, type: 3}
+  m_Name: 02
+  m_EditorClassIdentifier: 
+  id: 4
+  name: Coin point {0}
+  lsTarget: e8030000d0070000a00f000070170000401f000010270000983a0000
+  lsReward: 64000000c80000002c01000090010000f401000058020000b0040000
+  iconSpr: {fileID: 21300000, guid: 11d5979c2192b3b428efe418488ac95a, type: 3}
+  isComplete: 0

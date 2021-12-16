@@ -1,0 +1,3562 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &338549790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 338549791}
+  - component: {fileID: 338549792}
+  m_Layer: 0
+  m_Name: Level27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &338549791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338549790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &338549792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338549790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 18
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: -1.72, y: 3.4, z: -4.07}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &703747127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703747128}
+  - component: {fileID: 703747129}
+  m_Layer: 0
+  m_Name: Level23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &703747128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703747127}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &703747129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703747127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 30
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas: []
+--- !u!1 &739852715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 739852716}
+  - component: {fileID: 739852717}
+  m_Layer: 0
+  m_Name: Level12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &739852716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739852715}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &739852717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739852715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 5
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &792861476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 792861477}
+  - component: {fileID: 792861478}
+  m_Layer: 0
+  m_Name: Level18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &792861477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792861476}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &792861478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792861476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 16
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: 2.44405}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: -3.74331}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: 4.38, y: 3.62, z: -4.22}
+    TargetPos: {x: -3.66, y: 3.62, z: 2.49}
+    TrapRotation: {x: 0, y: 39.833, z: 0}
+  - trapKind: 6
+    BeginPos: {x: 3.98, y: 3.62, z: 2.7}
+    TargetPos: {x: -3.93, y: 3.62, z: -3.9}
+    TrapRotation: {x: 0, y: -39.833, z: 0}
+--- !u!1 &846677648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846677649}
+  - component: {fileID: 846677650}
+  m_Layer: 0
+  m_Name: Level20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846677649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846677648}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &846677650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846677648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 22
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 6
+    BeginPos: {x: 4.38, y: 3.62, z: -4.22}
+    TargetPos: {x: -3.66, y: 3.62, z: 2.49}
+    TrapRotation: {x: 0, y: 39.833, z: 0}
+  - trapKind: 6
+    BeginPos: {x: 3.98, y: 3.62, z: 2.7}
+    TargetPos: {x: -3.93, y: 3.62, z: -3.9}
+    TrapRotation: {x: 0, y: -39.833, z: 0}
+--- !u!1 &913360641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913360642}
+  - component: {fileID: 913360643}
+  m_Layer: 0
+  m_Name: Level16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913360642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913360641}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &913360643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913360641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 8
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: 2.44405}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: -3.74331}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: -3.3, y: 3.4, z: -3.42}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 0.18, y: 3.4, z: 4.54}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &1079899935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079899936}
+  - component: {fileID: 1079899937}
+  m_Layer: 0
+  m_Name: Level15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1079899936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079899935}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1079899937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079899935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 10
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: 2.44405}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: -3.74331}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 2
+    BeginPos: {x: -0.02, y: 3.134, z: -0.78}
+    TargetPos: {x: 1.54, y: 3.817, z: 4.78}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -0.02, y: 3.134, z: -5.76}
+    TargetPos: {x: -1.496, y: 3.817, z: -5.97}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -0.02, y: 3.134, z: 4.58}
+    TargetPos: {x: 4.56, y: 3.817, z: 1.42}
+    TrapRotation: {x: 0, y: -90, z: 0}
+--- !u!1 &1152509420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152509421}
+  - component: {fileID: 1152509422}
+  m_Layer: 0
+  m_Name: Level22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1152509421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152509420}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152509422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152509420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 29
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas: []
+--- !u!1 &1280712062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1280712063}
+  - component: {fileID: 1280712064}
+  m_Layer: 0
+  m_Name: Level19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1280712063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280712062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1280712064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280712062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 21
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &1344189197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1344189198}
+  - component: {fileID: 1344189199}
+  m_Layer: 0
+  m_Name: Level28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1344189198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344189197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1344189199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344189197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 17
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: -1.86, y: 3.4, z: -4.09}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: -0.69, y: 4.1, z: -2.61}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 30, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 3.38, y: 4.1, z: -0.61}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+--- !u!1 &1403258855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1403258856}
+  - component: {fileID: 1403258857}
+  m_Layer: 0
+  m_Name: Level25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1403258856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403258855}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1403258857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403258855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 13
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 2
+    BeginPos: {x: -0.88, y: 3.134, z: -2.99}
+    TargetPos: {x: 1.54, y: 3.817, z: 4.78}
+    TrapRotation: {x: 0, y: 30, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 3.27, y: 3.134, z: -0.38}
+    TargetPos: {x: -1.496, y: 3.817, z: -5.97}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -0.93, y: 3.134, z: 1.5}
+    TargetPos: {x: 4.56, y: 3.817, z: 1.42}
+    TrapRotation: {x: 0, y: -30, z: 0}
+--- !u!1 &1405352825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1405352826}
+  - component: {fileID: 1405352827}
+  m_Layer: 0
+  m_Name: Level26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1405352826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405352825}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1405352827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405352825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 14
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: -0.69, y: 4.1, z: -2.61}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 30, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 3.38, y: 4.1, z: -0.61}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 3.27, y: 3.134, z: -0.38}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -0.88, y: 3.134, z: -2.99}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 30, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -0.93, y: 3.134, z: 1.5}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: -30, z: 0}
+--- !u!1 &1410090302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410090303}
+  - component: {fileID: 1410090304}
+  m_Layer: 0
+  m_Name: Level11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410090303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410090302}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1410090304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410090302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 4
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &1489049692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489049693}
+  - component: {fileID: 1489049694}
+  m_Layer: 0
+  m_Name: Level13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1489049693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489049692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1489049694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489049692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 6
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: 2.44405}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: -3.74331}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &1525335674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1525335675}
+  - component: {fileID: 1525335676}
+  m_Layer: 0
+  m_Name: Level14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1525335675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525335674}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1525335676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525335674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 27
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: 2.44405}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: -3.74331}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: 2.78, y: 4.1, z: 1.77}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 45, z: 0}
+  - trapKind: 7
+    BeginPos: {x: -2.66, y: 4.1, z: 1.49}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: -45, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 0.06, y: 4.1, z: -5.738}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+--- !u!1 &1650636153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1650636154}
+  - component: {fileID: 1650636155}
+  m_Layer: 0
+  m_Name: Level17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1650636154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650636153}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1650636155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650636153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 12
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 1
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.30763, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 0
+    Position: {x: 3.092575, y: 3.28821, z: -0.7202979}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: 2.44405}
+    Rotation: {x: 0, y: -180, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  - obstacleID: 1
+    Position: {x: 0, y: 3.28821, z: -3.74331}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.8384824, y: 0.8384824, z: 0.8384824}
+  PlayerPosition: {x: 0.01, y: 3.31, z: -0.49}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: 4.38, y: 3.62, z: -4.22}
+    TargetPos: {x: -3.66, y: 3.62, z: 2.49}
+    TrapRotation: {x: 0, y: 39.833, z: 0}
+--- !u!1 &1660765843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1660765844}
+  - component: {fileID: 1660765845}
+  m_Layer: 0
+  m_Name: Level29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1660765844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660765843}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1660765845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660765843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 25
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: -4.01, y: 3.62, z: -2.88}
+    TargetPos: {x: 2.34, y: 3.62, z: -5.19}
+    TrapRotation: {x: 0, y: 20, z: 0}
+--- !u!1 &1814049028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814049029}
+  - component: {fileID: 1814049030}
+  m_Layer: 0
+  m_Name: Level24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1814049029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814049028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1814049030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814049028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 11
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -2.330961, y: 3.586664, z: -0.54284}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.03241, y: 3.586664, z: -2.470864}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 1
+    Position: {x: 2.032411, y: 3.586664, z: 1.688543}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: -0.69, y: 4.1, z: -2.61}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 30, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 3.38, y: 4.1, z: -0.61}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+--- !u!1 &1913853865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913853866}
+  - component: {fileID: 1913853867}
+  m_Layer: 0
+  m_Name: Level21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913853866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913853865}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1913853867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913853865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 28
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas: []
+--- !u!1 &93083094476324932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5075655447326892265}
+  - component: {fileID: 1204982184108433306}
+  m_Layer: 0
+  m_Name: Level48
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5075655447326892265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93083094476324932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204982184108433306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93083094476324932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 45
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: 0.08, y: 3.62, z: -4}
+    TargetPos: {x: 0.08, y: 3.62, z: 2.51}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 0.16, y: 4.58, z: -2.97}
+    TargetPos: {x: -90, y: 3.817, z: 2.52}
+    TrapRotation: {x: 180, y: 0, z: 0}
+--- !u!1 &507558907816952953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5792189198383959104}
+  - component: {fileID: 7485931999500070900}
+  m_Layer: 0
+  m_Name: Level41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5792189198383959104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507558907816952953}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7485931999500070900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507558907816952953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 40
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas: []
+--- !u!1 &519746888695522352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 960761133971342073}
+  - component: {fileID: 810920800108557143}
+  m_Layer: 0
+  m_Name: Level10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &960761133971342073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519746888695522352}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &810920800108557143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519746888695522352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 23
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: -1.496, y: 3.817, z: 0.23}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 6
+    BeginPos: {x: -1.62, y: 3.73, z: -5.54}
+    TargetPos: {x: -1.62, y: 3.73, z: 1.51}
+    TrapRotation: {x: 0, y: 90, z: 0}
+--- !u!1 &691215192835988721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563954283551017012}
+  - component: {fileID: 6933715941665876235}
+  m_Layer: 0
+  m_Name: Level9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563954283551017012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691215192835988721}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6933715941665876235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691215192835988721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 24
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: -1.496, y: 3.817, z: 0.23}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &1259768563314942856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4357405415892639413}
+  - component: {fileID: 7589770179720507973}
+  m_Layer: 0
+  m_Name: Level45
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4357405415892639413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259768563314942856}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7589770179720507973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259768563314942856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 44
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 2
+    BeginPos: {x: 0.08, y: 3.147, z: 2.29}
+    TargetPos: {x: -2.31, y: 3.817, z: 0.34}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 0.08, y: 3.147, z: -3.41}
+    TargetPos: {x: 0.97, y: 3.817, z: 2.52}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -2.07, y: 3.147, z: -0.57}
+    TargetPos: {x: 2.36, y: 3.817, z: -1.47}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 2.03, y: 3.147, z: -0.57}
+    TargetPos: {x: -0.95, y: 3.817, z: -3.72}
+    TrapRotation: {x: 0, y: -90, z: 0}
+--- !u!1 &1279590880622326519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7550106017951739249}
+  - component: {fileID: 5865825561798921364}
+  m_Layer: 0
+  m_Name: Level1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7550106017951739249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279590880622326519}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5865825561798921364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279590880622326519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 1
+  timeLevel: 120
+  beginDiamond: 3
+  maxDiamond: 8
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &1565872985403372052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8051485697583144025}
+  - component: {fileID: 1957875913999355174}
+  m_Layer: 0
+  m_Name: Level42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8051485697583144025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565872985403372052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1957875913999355174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565872985403372052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 41
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas: []
+--- !u!1 &2017024471111577908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3810836371495081074}
+  - component: {fileID: 5213909982116603439}
+  m_Layer: 0
+  m_Name: Level2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3810836371495081074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017024471111577908}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5213909982116603439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017024471111577908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 2
+  timeLevel: 120
+  beginDiamond: 3
+  maxDiamond: 8
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &2125174694162496898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 767705915708716893}
+  m_Layer: 0
+  m_Name: LevelDatas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &767705915708716893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125174694162496898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.021607518, y: 0.55247307, z: 3.9259863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7550106017951739249}
+  - {fileID: 3810836371495081074}
+  - {fileID: 5652953056688179237}
+  - {fileID: 1410090303}
+  - {fileID: 739852716}
+  - {fileID: 1489049693}
+  - {fileID: 8073212138682135548}
+  - {fileID: 913360642}
+  - {fileID: 3355531214521162433}
+  - {fileID: 1079899936}
+  - {fileID: 1814049029}
+  - {fileID: 1650636154}
+  - {fileID: 1403258856}
+  - {fileID: 1405352826}
+  - {fileID: 4966235684015683243}
+  - {fileID: 792861477}
+  - {fileID: 1344189198}
+  - {fileID: 338549791}
+  - {fileID: 6431909205922201681}
+  - {fileID: 188697800067706089}
+  - {fileID: 1280712063}
+  - {fileID: 846677649}
+  - {fileID: 960761133971342073}
+  - {fileID: 563954283551017012}
+  - {fileID: 1660765844}
+  - {fileID: 3410463428514243021}
+  - {fileID: 1525335675}
+  - {fileID: 1913853866}
+  - {fileID: 1152509421}
+  - {fileID: 703747128}
+  - {fileID: 397669650988301933}
+  - {fileID: 4217823397399824450}
+  - {fileID: 5008842359218479065}
+  - {fileID: 5270238058356620362}
+  - {fileID: 6957479969206456213}
+  - {fileID: 6197442684208606167}
+  - {fileID: 1156537777112192357}
+  - {fileID: 9025835095020033559}
+  - {fileID: 8052235872013874917}
+  - {fileID: 5792189198383959104}
+  - {fileID: 8051485697583144025}
+  - {fileID: 9094006758391186603}
+  - {fileID: 3931942499023123316}
+  - {fileID: 4357405415892639413}
+  - {fileID: 5075655447326892265}
+  - {fileID: 6307977368006878140}
+  - {fileID: 6692402977935750096}
+  - {fileID: 4041058830938397286}
+  - {fileID: 4802243933113524584}
+  - {fileID: 6810607273708582780}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2318176819500909982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4966235684015683243}
+  - component: {fileID: 2794091738763830162}
+  m_Layer: 0
+  m_Name: Level6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966235684015683243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318176819500909982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2794091738763830162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318176819500909982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 15
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  - obstacleID: 0
+    Position: {x: 2.7533, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.1076472}
+  - obstacleID: 0
+    Position: {x: 0.4813, y: 3.613609, z: -4.033}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.09349959}
+  - obstacleID: 1
+    Position: {x: 0.3670427, y: 3.613609, z: -0.3354126}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 2
+    BeginPos: {x: -1.73, y: 3.134, z: -3.93}
+    TargetPos: {x: 1.54, y: 3.817, z: 4.78}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 2.03, y: 3.134, z: 1.65}
+    TargetPos: {x: -1.496, y: 3.817, z: -5.97}
+    TrapRotation: {x: 0, y: 180, z: 0}
+--- !u!1 &3085804236609107695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3355531214521162433}
+  - component: {fileID: 5188139321235039079}
+  m_Layer: 0
+  m_Name: Level5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3355531214521162433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3085804236609107695}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5188139321235039079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3085804236609107695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 9
+  timeLevel: 120
+  beginDiamond: 3
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  - obstacleID: 0
+    Position: {x: 2.7533, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.1076472}
+  - obstacleID: 0
+    Position: {x: 0.4813, y: 3.613609, z: -4.033}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.09349959}
+  - obstacleID: 1
+    Position: {x: 0.3670427, y: 3.613609, z: -0.3354126}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: -1.56, y: 4.1, z: -3.94}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 1.7, y: 4.1, z: 1.48}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &3405831796178375837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8052235872013874917}
+  - component: {fileID: 6879141522947669003}
+  m_Layer: 0
+  m_Name: Level40
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8052235872013874917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3405831796178375837}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6879141522947669003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3405831796178375837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 39
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -5.11, y: 3.134, z: -1.45}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 1.92, y: 3.134, z: -4.56}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 2.04, y: 3.4, z: -4.78}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 4
+    BeginPos: {x: -4.74, y: 3.4, z: -1.69}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &3600735916588824408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5008842359218479065}
+  - component: {fileID: 558150354084412370}
+  m_Layer: 0
+  m_Name: Level33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5008842359218479065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3600735916588824408}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &558150354084412370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3600735916588824408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 33
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &3771723631692915092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5652953056688179237}
+  - component: {fileID: 3590362229863648451}
+  m_Layer: 0
+  m_Name: Level3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5652953056688179237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3771723631692915092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3590362229863648451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3771723631692915092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 3
+  timeLevel: 120
+  beginDiamond: 3
+  maxDiamond: 8
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  - obstacleID: 0
+    Position: {x: 2.7533, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.1076472}
+  - obstacleID: 0
+    Position: {x: 0.4813, y: 3.613609, z: -4.033}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.09349959}
+  - obstacleID: 1
+    Position: {x: 0.3670427, y: 3.613609, z: -0.3354126}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &4229432399492864904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8073212138682135548}
+  - component: {fileID: 3437106166618395452}
+  m_Layer: 0
+  m_Name: Level4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8073212138682135548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4229432399492864904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3437106166618395452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4229432399492864904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 7
+  timeLevel: 120
+  beginDiamond: 3
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  - obstacleID: 0
+    Position: {x: 2.7533, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.1076472}
+  - obstacleID: 0
+    Position: {x: 0.4813, y: 3.613609, z: -4.033}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.09349959}
+  - obstacleID: 1
+    Position: {x: 0.3670427, y: 3.613609, z: -0.3354126}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: -3.3, y: 3.4, z: -3.42}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 0.72, y: 3.4, z: 3.94}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &4453454497234823047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4217823397399824450}
+  - component: {fileID: 4327382124166372100}
+  m_Layer: 0
+  m_Name: Level32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4217823397399824450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453454497234823047}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4327382124166372100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453454497234823047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 32
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &4488552507085574227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4041058830938397286}
+  - component: {fileID: 5511441999460718168}
+  m_Layer: 0
+  m_Name: Level39
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4041058830938397286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488552507085574227}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5511441999460718168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488552507085574227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 48
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: -0.01, y: 4.1, z: -0.53}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: -0.01, y: 4.1, z: -5.42}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+--- !u!1 &4651104685324521089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4802243933113524584}
+  - component: {fileID: 5653683544679660595}
+  m_Layer: 0
+  m_Name: Level49
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4802243933113524584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651104685324521089}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5653683544679660595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651104685324521089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 49
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: -1.49, y: 3.4, z: -0.53}
+    TargetPos: {x: -2.31, y: 3.817, z: 0.34}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 1.95, y: 3.4, z: -0.53}
+    TargetPos: {x: -90, y: 3.817, z: 2.52}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 0.08, y: 3.147, z: 2.29}
+    TargetPos: {x: -2.31, y: 3.817, z: 0.34}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 0.08, y: 3.147, z: -3.41}
+    TargetPos: {x: 0.97, y: 3.817, z: 2.52}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -2.07, y: 3.147, z: -0.57}
+    TargetPos: {x: 2.36, y: 3.817, z: -1.47}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 2.03, y: 3.147, z: -0.57}
+    TargetPos: {x: 2.36, y: 3.817, z: -1.47}
+    TrapRotation: {x: 0, y: -90, z: 0}
+--- !u!1 &4702542917891130863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188697800067706089}
+  - component: {fileID: 7617239344606441335}
+  m_Layer: 0
+  m_Name: Level8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188697800067706089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4702542917891130863}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7617239344606441335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4702542917891130863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 20
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  - obstacleID: 0
+    Position: {x: 2.7533, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.1076472}
+  - obstacleID: 0
+    Position: {x: 0.4813, y: 3.613609, z: -4.033}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.09349959}
+  - obstacleID: 1
+    Position: {x: 0.3670427, y: 3.613609, z: -0.3354126}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: -1.62, y: 3.73, z: -5.54}
+    TargetPos: {x: -1.62, y: 3.73, z: 1.51}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 6
+    BeginPos: {x: 3.36, y: 3.73, z: 4.45}
+    TargetPos: {x: -3.2, y: 3.73, z: 4.45}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &5436674347797617056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9094006758391186603}
+  - component: {fileID: 3373924681335976828}
+  m_Layer: 0
+  m_Name: Level43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9094006758391186603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5436674347797617056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3373924681335976828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5436674347797617056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 42
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas: []
+--- !u!1 &5480675353248811319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3931942499023123316}
+  - component: {fileID: 7861063808541133959}
+  m_Layer: 0
+  m_Name: Level36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3931942499023123316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480675353248811319}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7861063808541133959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480675353248811319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 43
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: 5.22, y: 3.62, z: -2.18}
+    TargetPos: {x: -4.94, y: 3.62, z: -2.18}
+    TrapRotation: {x: 0, y: 180, z: 0}
+--- !u!1 &5694579627999999686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6197442684208606167}
+  - component: {fileID: 6510357203428268393}
+  m_Layer: 0
+  m_Name: Level35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6197442684208606167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5694579627999999686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6510357203428268393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5694579627999999686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 36
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: 2.44, y: 3.4, z: -0.31}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &5834935149403949633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397669650988301933}
+  - component: {fileID: 5994080402029503416}
+  m_Layer: 0
+  m_Name: Level31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &397669650988301933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5834935149403949633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5994080402029503416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5834935149403949633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 31
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas: []
+--- !u!1 &6136459823755006992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3410463428514243021}
+  - component: {fileID: 2707903605235681357}
+  m_Layer: 0
+  m_Name: Level30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3410463428514243021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136459823755006992}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2707903605235681357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136459823755006992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 26
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 2
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: -0.97, y: 3.31, z: -3.62}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: 1.23, y: 3.31, z: 4.1}
+  - {x: -4.01, y: 3.31, z: 1.52}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &6484869835693870653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1156537777112192357}
+  - component: {fileID: 2328808010731288733}
+  m_Layer: 0
+  m_Name: Level46
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1156537777112192357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484869835693870653}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2328808010731288733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6484869835693870653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 37
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: 0.04160752, y: 4.102473, z: 2.295986}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 0.04160752, y: 4.102473, z: -2.964014}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 0.08, y: 3.147, z: 2.29}
+    TargetPos: {x: -2.31, y: 3.817, z: 0.34}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 0.08, y: 3.147, z: -3.41}
+    TargetPos: {x: 0.97, y: 3.817, z: 2.52}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 2
+    BeginPos: {x: -2.07, y: 3.147, z: -0.57}
+    TargetPos: {x: 2.36, y: 3.817, z: -1.47}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 2.03, y: 3.147, z: -0.57}
+    TargetPos: {x: -0.95, y: 3.817, z: -3.72}
+    TrapRotation: {x: 0, y: -90, z: 0}
+--- !u!1 &6674549940502995923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6810607273708582780}
+  - component: {fileID: 7850755754986478901}
+  m_Layer: 0
+  m_Name: Level50
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6810607273708582780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674549940502995923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 49
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7850755754986478901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674549940502995923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 50
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: -0.62}
+    TargetPos: {x: -2.31, y: 3.817, z: 0.34}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &6755387537106841636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6692402977935750096}
+  - component: {fileID: 6022700686578270107}
+  m_Layer: 0
+  m_Name: Level38
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6692402977935750096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6755387537106841636}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6022700686578270107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6755387537106841636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 47
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 5
+    BeginPos: {x: 0, y: 3.03, z: 0}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &6951772497922173120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5270238058356620362}
+  - component: {fileID: 8899585005611395057}
+  m_Layer: 0
+  m_Name: Level34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5270238058356620362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6951772497922173120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8899585005611395057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6951772497922173120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 34
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: -0.01, y: 4.1, z: -0.53}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: -0.01, y: 4.1, z: -5.42}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+--- !u!1 &7171192756743384185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9025835095020033559}
+  - component: {fileID: 7290748914272956858}
+  m_Layer: 0
+  m_Name: Level47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9025835095020033559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171192756743384185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7290748914272956858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7171192756743384185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 38
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 4
+    BeginPos: {x: -1.49, y: 3.4, z: -0.53}
+    TargetPos: {x: -2.31, y: 3.817, z: 0.34}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 1.95, y: 3.4, z: -0.53}
+    TargetPos: {x: -90, y: 3.817, z: 2.52}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &7381382890625477707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6307977368006878140}
+  - component: {fileID: 2752796742269178996}
+  m_Layer: 0
+  m_Name: Level37
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6307977368006878140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7381382890625477707}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2752796742269178996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7381382890625477707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 46
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 3
+  isActiveTorus: 1
+  Obstacles: []
+  PlayerPosition: {x: 0.02, y: 3.31, z: -0.58}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 2
+    BeginPos: {x: -5.11, y: 3.134, z: -1.45}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 180, z: 0}
+  - trapKind: 2
+    BeginPos: {x: 1.92, y: 3.134, z: -4.56}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 90, z: 0}
+  - trapKind: 4
+    BeginPos: {x: 2.04, y: 3.4, z: -4.78}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+  - trapKind: 4
+    BeginPos: {x: -4.74, y: 3.4, z: -1.69}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: -90, y: 0, z: 0}
+--- !u!1 &7794288818144799888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6957479969206456213}
+  - component: {fileID: 5467537112553281673}
+  m_Layer: 0
+  m_Name: Level44
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6957479969206456213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7794288818144799888}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5467537112553281673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7794288818144799888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 35
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 4
+  isActiveTorus: 0
+  Obstacles: []
+  PlayerPosition: {x: 4.21, y: 3.31, z: 3.87}
+  BotPositions:
+  - {x: 4.19, y: 3.31, z: -5.88}
+  - {x: -4.38, y: 3.31, z: 3.37}
+  - {x: -4.19, y: 3.31, z: -5.78}
+  TrapDatas:
+  - trapKind: 7
+    BeginPos: {x: 0.04160752, y: 4.102473, z: 2.295986}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+  - trapKind: 7
+    BeginPos: {x: 0.04160752, y: 4.102473, z: -2.964014}
+    TargetPos: {x: 0, y: 0, z: 0}
+    TrapRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &7945743435062524419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6431909205922201681}
+  - component: {fileID: 2242671174458157903}
+  m_Layer: 0
+  m_Name: Level7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6431909205922201681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945743435062524419}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 767705915708716893}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2242671174458157903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945743435062524419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14644553cf3679d4da67f5e39f8a0cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelID: 19
+  timeLevel: 120
+  beginDiamond: 4
+  maxDiamond: 10
+  mapID: 0
+  isActiveTorus: 0
+  Obstacles:
+  - obstacleID: 0
+    Position: {x: -3.144198, y: 3.613609, z: -1.533829}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  - obstacleID: 0
+    Position: {x: 3.543, y: 3.613609, z: -0.7193}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.3402283}
+  - obstacleID: 0
+    Position: {x: -1.7516, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.263788}
+  - obstacleID: 0
+    Position: {x: 2.7533, y: 3.613609, z: 3.15}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.1076472}
+  - obstacleID: 0
+    Position: {x: 0.4813, y: 3.613609, z: -4.033}
+    Rotation: {x: 0, y: 90, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.09349959}
+  - obstacleID: 1
+    Position: {x: 0.3670427, y: 3.613609, z: -0.3354126}
+    Rotation: {x: 0, y: 180, z: 0}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+  PlayerPosition: {x: 2.09, y: 3.31, z: -1.07}
+  BotPositions:
+  - {x: 4.46, y: 3.31, z: 0.43}
+  - {x: -4.38, y: 3.31, z: 1.72}
+  - {x: -3.56, y: 3.31, z: -4.82}
+  TrapDatas:
+  - trapKind: 6
+    BeginPos: {x: -1.62, y: 3.73, z: -5.54}
+    TargetPos: {x: -1.62, y: 3.73, z: 1.51}
+    TrapRotation: {x: 0, y: 90, z: 0}

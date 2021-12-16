@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2029059301724014174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606132957551679963}
+  - component: {fileID: 5876241155393856482}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1606132957551679963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029059301724014174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 225.0778, y: 957.3624, z: -3.3401763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5876241155393856482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029059301724014174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c9ff56cef474d10b287345ac1a50f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: 5859e9bbfa3454421a6b5e57b0f77d32, type: 2}
+  itemsData: {fileID: 11400000, guid: b33a71a62e8df41769f9a8ea0da6077d, type: 2}
+  levelData: {fileID: 11400000, guid: 29df5c425186ed047bc64cd36a9de733, type: 2}
+  PlayerSkin: {fileID: 0}
+  PlayerAvatar: {fileID: 0}
+  PlayerFlag: {fileID: 0}
+  itemArray:
+  - kindItem: 0
+    itemAmount: 0
+    itemTime: 0
+    itemValue: 0
+  - kindItem: 0
+    itemAmount: 0
+    itemTime: 0
+    itemValue: 0
+  - kindItem: 0
+    itemAmount: 0
+    itemTime: 0
+    itemValue: 0
+  - kindItem: 0
+    itemAmount: 0
+    itemTime: 0
+    itemValue: 0
+  isFinish: 0
+  healAmount: 0
+  shieldAmount: 0
+  weaponAmount: 0
+  strengthAmount: 0

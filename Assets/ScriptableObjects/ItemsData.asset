@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9a046f4b670411ba1d970effe3cb87, type: 3}
+  m_Name: ItemsData
+  m_EditorClassIdentifier: 
+  itemDataArray:
+  - kindItem: 3
+    itemTime: 0
+    itemValue: 50
+  - kindItem: 1
+    itemTime: 5
+    itemValue: 2
+  - kindItem: 2
+    itemTime: 7
+    itemValue: 0
+  - kindItem: 0
+    itemTime: 30
+    itemValue: 2
+  trapDataArray:
+  - kindTrap: 1
+    damageValue: 1
+    cooldownTime: 2
+  - kindTrap: 2
+    damageValue: 1
+    cooldownTime: 1
+  - kindTrap: 3
+    damageValue: 2
+    cooldownTime: 0
+  - kindTrap: 4
+    damageValue: 2
+    cooldownTime: 0
+  - kindTrap: 5
+    damageValue: 2
+    cooldownTime: 1
+  - kindTrap: 6
+    damageValue: 2
+    cooldownTime: 1
+  - kindTrap: 7
+    damageValue: 2
+    cooldownTime: 0

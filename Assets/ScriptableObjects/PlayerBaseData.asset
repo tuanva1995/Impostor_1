@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2206834b948ebc7419d4a7c6d8fe5b55, type: 3}
+  m_Name: PlayerBaseData
+  m_EditorClassIdentifier: 
+  datas:
+  - ID: 0
+    name: Spider Man
+    description: 
+    dame: 7
+    Hp: 100
+    Price: 500
+  - ID: 1
+    name: Mario
+    description: 
+    dame: 7
+    Hp: 100
+    Price: 500
+  - ID: 2
+    name: Joker
+    description: 
+    dame: 7
+    Hp: 110
+    Price: 1000
+  - ID: 3
+    name: Iron Man
+    description: 
+    dame: 7
+    Hp: 120
+    Price: 1500
+  - ID: 4
+    name: Go ku
+    description: 
+    dame: 7
+    Hp: 130
+    Price: 2000
+  - ID: 4
+    name: Vegeta
+    description: 
+    dame: 7
+    Hp: 140
+    Price: 2500
+  - ID: 4
+    name: Deadpool
+    description: 
+    dame: 7
+    Hp: 150
+    Price: 3000
+  - ID: 4
+    name: Wonder Woman
+    description: 
+    dame: 7
+    Hp: 160
+    Price: 3500
+  - ID: 4
+    name: Captain America
+    description: 
+    dame: 7
+    Hp: 170
+    Price: 4000
+  - ID: 4
+    name: Batman
+    description: 
+    dame: 7
+    Hp: 180
+    Price: 5000
+  ListGiftInFreeGift: 6400000001000000010000000100000001000000
+  ListGiftInDailyGift: 320000006400000096000000c8000000fa0000005e01000005000000
